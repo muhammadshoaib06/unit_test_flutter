@@ -3,7 +3,7 @@ import 'package:unit_test/calculate.dart';
 
 void main() {
   /// Testing Addition of two numbers;
-  testWidgets('Adding Two Numbers', (tester) async {
+  test('Adding Two Numbers', () {
     /// Arrange
     final result = Calculate().add(2, 2);
 
